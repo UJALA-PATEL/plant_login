@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>334190932272-n5e0h6ar0ki4g05jo5rfmgttjqht1rmu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.334190932272-n5e0h6ar0ki4g05jo5rfmgttjqht1rmu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>334190932272-c54b3lplvpde6j1qjveqdot5cvu992fm.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCOVzv29rG1ze1ixofw5ydIwdYCVf77uCs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>334190932272</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.project</string>
+	<key>PROJECT_ID</key>
+	<string>plantcareadvisor-2d9df</string>
+	<key>STORAGE_BUCKET</key>
+	<string>plantcareadvisor-2d9df.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:334190932272:ios:51861c48a08834792f18f5</string>
+</dict>
+</plist>
