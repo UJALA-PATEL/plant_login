@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:project/Screens/wrapper.dart';
 import 'package:get/get.dart';
+import 'package:project/onboarding.dart';
 
 class Signup extends StatefulWidget {
   const Signup({super.key});
@@ -17,7 +18,7 @@ class _SignupState extends State<Signup> {
 
   signup()async{
     await FirebaseAuth.instance.createUserWithEmailAndPassword(email: email.text, password: password.text);
-    Get.offAll(Wrapper());
+    Get.offAll(OnboardingScreen());
   }
 
   @override

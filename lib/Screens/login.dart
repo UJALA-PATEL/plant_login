@@ -5,6 +5,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:project/Screens/forgot.dart';
 import 'package:project/Screens/hompage.dart';
 import 'package:project/Screens/signup.dart';
+import 'package:project/dashboard.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -26,7 +27,7 @@ class _LoginState extends State<Login> {
         email: email.text.trim(),
         password: password.text,
       );
-      Get.offAll(Homepage());
+      Get.offAll(DashboardPage());
     } on FirebaseAuthException catch (e) {
       String errorMessage = "An error occurred. Please try again.";
 

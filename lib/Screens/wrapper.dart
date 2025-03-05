@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:project/Screens/hompage.dart';
 import 'package:project/Screens/login.dart';
 import 'package:project/Screens/verifyemail.dart';
+import 'package:project/dashboard.dart';
 class Wrapper extends StatefulWidget {
   const Wrapper({super.key});
 
@@ -20,7 +21,7 @@ class _WrapperState extends State<Wrapper> {
             if(snapshot.hasData){
               print(snapshot.data);
               if(snapshot.data!.emailVerified){
-                return Homepage();
+                return DashboardPage();
               }else{
                 return Verify();
               }
